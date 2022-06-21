@@ -1,5 +1,6 @@
 @startjson
-#highlight "catagorey"
+#highlight "imports" / "0" / "code" 
+#highlight "exports"
 ' #highlight "address" / "city"
 ' #highlight "phoneNumbers" / "0" / "number"
 {
