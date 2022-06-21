@@ -5,6 +5,7 @@
 #highlight "imports" / "2" / "dsCode"
 #highlight "exports"
 #highlight "exports" / "0" / "dsCode" 
+#highlight "exports" / "1" / "dsCode" 
 ' #highlight "address" / "city"
 ' #highlight "phoneNumbers" / "0" / "number"
 {
@@ -13,30 +14,30 @@
             "dsCode": "china_stat",
             "config": [
                 {
-                    "queryField": "product_desc",
+                    "<color:green><b>queryField": "product_desc",
                     "field": "goodsDesc",
-                    "additional_field": "goodsDesc.raw",
+                    "fieldType": "str",
+                    "additionalField": "goodsDesc.raw",
                     "isFq": true,
                     "isWildcard": false,
-                    "seq": 1,
                     "cn": "产品描述",
                     "en": "Product Descriptions"
                 },
                 {
-                    "queryField": "weight",
+                    "<color:green><b>queryField": "weight",
                     "field": "weight",
+                    "fieldType": "float",
                     "isFq": true,
                     "isWildcard": false,
-                    "seq": 2,
                     "cn": "产品净重(千克)",
                     "en": "Net weight"
                 },
                 {
-                    "queryField": "...",
+                    "<color:green><b>queryField": "...",
                     "field": "...",
+                    "fieldType": "str",
                     "isFq": "...",
                     "isWildcard": "...",
-                    "seq": "...",
                     "cn": "....",
                     "en": "..."
                 }
@@ -46,30 +47,30 @@
             "dsCode": "russia",
             "config": [
                 {
-                    "queryField": "product_desc",
+                    "<color:green><b>queryField": "product_desc",
                     "field": "goodsDesc",
-                    "additional_field": "goodsDesc.raw",
+                    "fieldType": "str",
+                    "additionalField": "goodsDesc.raw",
                     "isFq": true,
                     "isWildcard": false,
-                    "seq": 1,
                     "cn": "产品描述",
                     "en": "Product Descriptions"
                 },
                 {
-                    "queryField": "weight",
+                    "<color:green><b>queryField": "weight",
                     "field": "weight",
+                    "fieldType": "float",
                     "isFq": true,
                     "isWildcard": false,
-                    "seq": 2,
                     "cn": "产品净重(千克)",
                     "en": "Net weight"
                 },
                 {
-                    "queryField": "...",
+                    "<color:green><b>queryField": "...",
                     "field": "...",
+                    "fieldType": "str",
                     "isFq": "...",
                     "isWildcard": "...",
-                    "seq": "...",
                     "cn": "....",
                     "en": "..."
                 }
@@ -81,9 +82,9 @@
             "dsCode": "china_stat",
             "config": [
                 {
-                    "queryField": "...",
+                    "<color:green><b>queryField": "...",
                     "field": "...",
-                    "isFq": "...",
+                    "fieldType": "str",
                     "isWildcard": "...",
                     "seq": "...",
                     "cn": "....",
