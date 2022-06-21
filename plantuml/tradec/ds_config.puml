@@ -3,61 +3,74 @@
 ' #highlight "address" / "city"
 ' #highlight "phoneNumbers" / "0" / "number"
 {
-    "imports": [
-        {
-            "code": "china_stat",
-            "secondary": "stat",
-            "isNew": true,
-            "preferred": true,
-            "reports": [
-                "exporter",
-                "hs_code",
-                "origin_country_code",
-                "country_of_destination",
-                "product_desc",
-                "merchant"
-            ],
-            "statFields": [
-                "importer,importer.raw:1",
-                "exporter,exporter.raw:1",
-                "weight,weight:0",
-                "quantity,qty:0",
-                "sumOfMoney,sumOfUSD:0",
-                "teus,teu:0"
-            ],
-            "lang": [
-                "en",
-                "cn"
-            ]
-        },
-        {
-            "code": "russia",
-            "secondary": "bol",
-            "isNew": false,
-            "preferred": true,
-            "reports": [
-                "exporter",
-                "hs_code",
-                "origin_country_code",
-                "country_of_destination",
-                "product_desc",
-                "merchant"
-            ],
-            "statFields": [
-                "importer,importer.raw:1",
-                "exporter,exporter.raw:1",
-                "weight,weight:0",
-                "quantity,qty:0",
-                "sumOfMoney,sumOfUSD:0",
-                "teus,teu:0"
-            ],
-            "lang": [
-                "en",
-                "ru"
-            ]
-        },
-        {}
-    ],
- "exports":[]
+	"imports": [{
+			"code": "china_stat",
+			"secondary": "stat",
+			"reports": [
+				"exporter",
+				"hs_code",
+				"origin_country_code",
+				"country_of_destination",
+				"product_desc",
+				"merchant",
+				"..."
+			],
+			"statFields": [
+				"importer,importer.raw:1",
+				"exporter,exporter.raw:1",
+				"weight,weight:0",
+				"quantity,qty:0",
+				"sumOfMoney,sumOfUSD:0",
+				"teus,teu:0",
+				"..."
+			],
+			"lang": [
+				"en",
+				"cn",
+				"..."
+			]
+		},
+		{
+			"code": "russia",
+			"secondary": "bol",
+			"reports": [
+				"exporter",
+				"hs_code",
+				"origin_country_code",
+				"country_of_destination",
+				"product_desc",
+				"merchant",
+				"..."
+			],
+			"statFields": [
+				"importer,importer.raw:1",
+				"exporter,exporter.raw:1",
+				"weight,weight:0",
+				"quantity,qty:0",
+				"sumOfMoney,sumOfUSD:0",
+				"teus,teu:0",
+				"..."
+			],
+			"lang": [
+				"en",
+				"ru",
+				"..."
+			]
+		},
+		{
+			"code": "...",
+			"secondary": "...",
+			"reports": ["..."],
+			"statFields": ["..."],
+			"lang": ["..."]
+		}
+	],
+	"exports": [{
+		"code": "...",
+		"secondary": "...",
+		"reports": ["..."],
+		"statFields": ["..."],
+		"lang": ["..."]
+	}]
 }
 @endjson
