@@ -1,49 +1,7 @@
-@startjson
-#highlight "imports"
-#highlight "imports" / "0" / "dsCode"
-#highlight "imports" / "1" / "dsCode"
-#highlight "imports" / "2" / "dsCode"
-#highlight "exports"
-#highlight "exports" / "0" / "dsCode" 
-' #highlight "address" / "city"
-' #highlight "phoneNumbers" / "0" / "number"
 {
     "imports": [
         {
             "dsCode": "china_stat",
-            "config": [
-                {
-                    "queryField": "product_desc",
-                    "field": "goodsDesc",
-                    "additional_field": "goodsDesc.raw",
-                    "isFq": true,
-                    "isWildcard": false,
-                    "seq": 1,
-                    "cn": "产品描述",
-                    "en": "Product Descriptions"
-                },
-                {
-                    "queryField": "weight",
-                    "field": "weight",
-                    "isFq": true,
-                    "isWildcard": false,
-                    "seq": 2,
-                    "cn": "产品净重(千克)",
-                    "en": "Net weight"
-                },
-                {
-                    "queryField": "...",
-                    "field": "...",
-                    "isFq": "...",
-                    "isWildcard": "...",
-                    "seq": "...",
-                    "cn": "....",
-                    "en": "..."
-                }
-            ]
-        },
-        {
-            "dsCode": "russia",
             "config": [
                 {
                     "queryField": "product_desc",
@@ -90,10 +48,6 @@
                     "en": "..."
                 }
             ]
-        },
-        {
-            "dsCode": "...",
-            "config":[] }
+        }
     ]
 }
-@endjson
