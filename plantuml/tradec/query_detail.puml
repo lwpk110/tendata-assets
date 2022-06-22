@@ -14,67 +14,201 @@
             "dsCode": "china_stat",
             "config": [
                 {
-                    "<color:green><b>field": "cpms",
-                    "fieldType": "str",
-                    "alias": "hgbmms",
-                    "": false,
-                    "cn": "产品描述",
-                    "en": "Product Descriptions"
+                    "fieldType": "COMPANY",
+                    "config": [
+                        {
+                            "subType": "IMPORTER",
+                            "config": [
+                                {
+                                    "source": "jksmc",
+                                    "seq": 1,
+                                    "default": "",
+                                    "dataType": "str",
+                                    "alias": "",
+                                    "displayType": "x"
+                                },
+                                {
+                                    "source": "jksdz",
+                                    "seq": 2,
+                                    "default": "",
+                                    "dataType": "str",
+                                    "alias": "",
+                                    "displayType": "x"
+                                },
+                                {
+                                    "source": "jksdm",
+                                    "seq": 3,
+                                    "default": "",
+                                    "dataType": "str",
+                                    "alias": "",
+                                    "displayType": "x"
+                                },
+                                {
+                                    "source": "lxfslx",
+                                    "seq": 5,
+                                    "default": "",
+                                    "dataType": "str",
+                                    "alias": "",
+                                    "displayType": "x"
+                                },
+                                {
+                                    "source": "lxfs",
+                                    "seq": 6,
+                                    "default": "",
+                                    "dataType": "str",
+                                    "alias": "",
+                                    "displayType": "x"
+                                }
+                            ]
+                        },
+                        {
+                            "subType": "EXPORTER",
+                            "config": [
+                                {
+                                    "source": "cksmc",
+                                    "seq": 1,
+                                    "default": "",
+                                    "dataType": "str",
+                                    "alias": "",
+                                    "displayType": "x"
+                                },
+                                {
+                                    "source": "...",
+                                    "seq": 2,
+                                    "default": "...",
+                                    "dataType": "...",
+                                    "alias": "...",
+                                    "displayType": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "subType": "NOTIFIER",
+                            "config": [
+                                {
+                                    "source": "tzrmc",
+                                    "seq": 1,
+                                    "default": "",
+                                    "dataType": "str",
+                                    "alias": "",
+                                    "displayType": "x"
+                                },
+                                {
+                                    "source": "...",
+                                    "seq": 2,
+                                    "default": "...",
+                                    "dataType": "...",
+                                    "alias": "...",
+                                    "displayType": "..."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldType": "SHIPPING",
+                    "config": [
+                        {
+                            "subType": "",
+                            "config": [
+                                {
+                                    "source": "...",
+                                    "seq": "...",
+                                    "default": "...",
+                                    "dataType": "...",
+                                    "alias": "...",
+                                    "displayType": "..."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldType": "CONTAINER",
+                    "config": [
+                        {
+                            "subType": "",
+                            "config": [
+                                {
+                                    "source": "...",
+                                    "seq": "...",
+                                    "default": "...",
+                                    "dataType": "...",
+                                    "alias": "...",
+                                    "displayType": "..."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldType": "PRODUCT",
+                    "config": [
+                        {
+                            "subType": "",
+                            "config": [
+                                {
+                                    "source": "...",
+                                    "seq": "...",
+                                    "default": "...",
+                                    "dataType": "...",
+                                    "alias": "...",
+                                    "displayType": "..."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldType": "DESCRIPTION",
+                    "config": [
+                        {
+                            "subType": "",
+                            "config": [
+                                {
+                                    "source": "...",
+                                    "seq": "...",
+                                    "default": "...",
+                                    "dataType": "...",
+                                    "alias": "...",
+                                    "displayType": "..."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldType": "HAZARDOUS",
+                    "config": [
+                        {
+                            "subType": "",
+                            "config": [
+                                {
+                                    "source": "...",
+                                    "seq": "...",
+                                    "default": "...",
+                                    "dataType": "...",
+                                    "alias": "...",
+                                    "displayType": "..."
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
         {
             "dsCode": "russia",
             "config": [
-                {
-                    "<color:green><b>queryField": "product_desc",
-                    "field": "goodsDesc",
-                    "fieldType": "str",
-                    "additionalField": "goodsDesc.raw",
-                    "isFq": true,
-                    "isWildcard": false,
-                    "cn": "产品描述",
-                    "en": "Product Descriptions"
-                },
-                {
-                    "<color:green><b>queryField": "weight",
-                    "field": "weight",
-                    "fieldType": "float",
-                    "isFq": true,
-                    "isWildcard": false,
-                    "cn": "产品净重(千克)",
-                    "en": "Net weight"
-                },
-                {
-                    "<color:green><b>queryField": "...",
-                    "field": "...",
-                    "fieldType": "str",
-                    "isFq": "...",
-                    "isWildcard": "...",
-                    "cn": "....",
-                    "en": "..."
-                }
+                "..."
             ]
         }
     ],
     "exports": [
         {
             "dsCode": "china_stat",
-            "config": [
-                {
-                    "<color:green><b>queryField": "...",
-                    "field": "...",
-                    "fieldType": "str",
-                    "isWildcard": "...",
-                    "seq": "...",
-                    "cn": "....",
-                    "en": "..."
-                }
-            ]
-        },
-        {
-            "dsCode": "...",
-            "config":[] }
+            "config": ["..."]
+        }
     ]
 }
 @endjson

@@ -1,13 +1,14 @@
 @startmindmap
 !theme materia
 *[#Orange] 详单类型
-**[#lightgreen] 商家信息
-***[#lightgreen] 进口商
-***[#lightgreen] 出口商
-***[#lightgreen] 通知人
-***[#lightgreen] 申报企业
-**[#FFBBCC] 物流信息
-**[#lightblue] 集装箱信息
-**[#lightgreen] 产品信息
-**[#lightblue] 描述
+**[#lightgreen] 商家信息 -  <color:orange><b>COMPANY</b>
+***[#lightgreen] 进口商 -  <color:orange><b>IMPORTER</b>
+***[#lightgreen] 出口商 -  <color:orange><b>EXPORTER</b>
+***[#lightgreen] 通知人 -  <color:orange><b>NOTIFIER</b>
+***[#lightgreen] 申报企业 -  <color:orange><b>DECLARANT</b>
+**[#FFBBCC] 物流信息 -  <color:orange><b>SHIPPING</b>
+**[#lightblue] 集装箱信息 -  <color:orange><b>CONTAINER</b>
+**[#lightgreen] 产品信息 -  <color:orange><b>PRODUCT</b>
+**[#lightblue] 描述 -  <color:orange><b>DESCRIPTION</b>
+**[#lightred] 危险品信息 -  <color:orange><b>HAZARDOUS</b>
 @endmindmap
