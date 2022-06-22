@@ -14,12 +14,14 @@
 			"config": [{
 					"<color:green><b>source": "goodsDesc",
 					"fieldType": "str",
+					"display": true,
 					"cn": "产品描述",
 					"en": "Product Descriptions"
 				},
 				{
 					"<color:green><b>source": "weight",
 					"fieldType": "float",
+					"display": false,
 					"default": 0.0,
 					"cn": "产品描述",
 					"en": "Product Descriptions"
@@ -27,25 +29,27 @@
 				{
 					"<color:green><b>source": "...",
 					"fieldType": "...",
+					"display": "...",
 					"default": "...",
 					"cn": "...",
 					"en": "..."
 				}
 
-			],
-			"default_dispaly": ["date", "weight", "importer", "exporter", "countryOfOrigin", "customs"]
+			]
 		},
 		{
 			"dsCode": "china_stat",
 			"config": [{
 					"<color:green><b>source": "goodsDesc",
 					"fieldType": "str",
+					"display": true,
 					"cn": "产品描述",
 					"en": "Product Descriptions"
 				},
 				{
 					"<color:green><b>source": "weight",
 					"fieldType": "float",
+					"display": false,
 					"default": 0.0,
 					"cn": "千克净重",
 					"en": "Product Descriptions"
@@ -53,18 +57,18 @@
 				{
 					"<color:green><b>source": "...",
 					"fieldType": "...",
+					"display": "...",
 					"default": "...",
 					"cn": "...",
 					"en": "..."
 				}
 
-			],
-			"default_dispaly": ["date", "weight", "importer", "exporter", "countryOfOrigin", "customs"]
+			]
 		},
 		{
 			"dsCode": "...",
 			"config": [],
-			"default_dispaly": ["...", "..."]
+			"defaultDisplay": ["...", "..."]
 		}
 	],
 	"exports": [{
@@ -72,16 +76,15 @@
 			"config": [{
 				"<color:green><b>source": "...",
 				"fieldType": "...",
+				"display": "...",
 				"default": "...",
 				"cn": "...",
 				"en": "..."
-			}],
-			"default_dispaly": ["...", "..."]
+			}]
 		},
 		{
 			"dsCode": "...",
-			"config": [],
-			"default_dispaly": ["...", "..."]
+			"config": []
 		}
 	]
 }
