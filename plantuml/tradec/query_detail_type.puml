@@ -1,0 +1,13 @@
+@startmindmap
+!theme materia
+*[#Orange] 详单类型
+**[#lightgreen] 商家信息
+***[#lightgreen] 进口商
+***[#lightgreen] 出口商
+***[#lightgreen] 通知人
+***[#lightgreen] 申报企业
+**[#FFBBCC] 物流信息
+**[#lightblue] 集装箱信息
+**[#lightgreen] 产品信息
+**[#lightblue] 描述
+@endmindmap

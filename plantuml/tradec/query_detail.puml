@@ -1,0 +1,80 @@
+@startjson
+#highlight "imports"
+#highlight "imports" / "0" / "dsCode"
+#highlight "imports" / "1" / "dsCode"
+#highlight "imports" / "2" / "dsCode"
+#highlight "exports"
+#highlight "exports" / "0" / "dsCode" 
+#highlight "exports" / "1" / "dsCode" 
+' #highlight "address" / "city"
+' #highlight "phoneNumbers" / "0" / "number"
+{
+    "imports": [
+        {
+            "dsCode": "china_stat",
+            "config": [
+                {
+                    "<color:green><b>field": "cpms",
+                    "fieldType": "str",
+                    "alias": "hgbmms",
+                    "": false,
+                    "cn": "产品描述",
+                    "en": "Product Descriptions"
+                }
+            ]
+        },
+        {
+            "dsCode": "russia",
+            "config": [
+                {
+                    "<color:green><b>queryField": "product_desc",
+                    "field": "goodsDesc",
+                    "fieldType": "str",
+                    "additionalField": "goodsDesc.raw",
+                    "isFq": true,
+                    "isWildcard": false,
+                    "cn": "产品描述",
+                    "en": "Product Descriptions"
+                },
+                {
+                    "<color:green><b>queryField": "weight",
+                    "field": "weight",
+                    "fieldType": "float",
+                    "isFq": true,
+                    "isWildcard": false,
+                    "cn": "产品净重(千克)",
+                    "en": "Net weight"
+                },
+                {
+                    "<color:green><b>queryField": "...",
+                    "field": "...",
+                    "fieldType": "str",
+                    "isFq": "...",
+                    "isWildcard": "...",
+                    "cn": "....",
+                    "en": "..."
+                }
+            ]
+        }
+    ],
+    "exports": [
+        {
+            "dsCode": "china_stat",
+            "config": [
+                {
+                    "<color:green><b>queryField": "...",
+                    "field": "...",
+                    "fieldType": "str",
+                    "isWildcard": "...",
+                    "seq": "...",
+                    "cn": "....",
+                    "en": "..."
+                }
+            ]
+        },
+        {
+            "dsCode": "...",
+            "config":[] }
+    ]
+}
+@endjson
