@@ -10,5 +10,5 @@
 **[#lightblue] 集装箱信息 -  <color:orange><b>CONTAINER</b>
 **[#lightgreen] 产品信息 -  <color:orange><b>PRODUCT</b>
 **[#lightblue] 描述 -  <color:orange><b>DESCRIPTION</b>
-**[#lightred] 危险品信息 -  <color:orange><b>HAZARDOUS</b>
+**[#red] 危险品信息 -  <color:orange><b>HAZARDOUS</b>
 @endmindmap
