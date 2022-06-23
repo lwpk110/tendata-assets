@@ -1,0 +1,91 @@
+@startjson
+#highlight "imports"
+#highlight "imports" / "0" / "dsCode"
+#highlight "imports" / "1" / "dsCode"
+#highlight "imports" / "2" / "dsCode"
+#highlight "exports"
+#highlight "exports" / "0" / "dsCode" 
+#highlight "exports" / "1" / "dsCode" 
+' #highlight "address" / "city"
+' #highlight "phoneNumbers" / "0" / "number"
+{
+	"imports": [{
+			"dsCode": "china_stat",
+			"config": [{
+					"<color:green><b>source": "goodsDesc",
+					"fieldType": "str",
+					"display": true,
+					"cn": "产品描述",
+					"en": "Product Descriptions"
+				},
+				{
+					"<color:green><b>source": "weight",
+					"fieldType": "float",
+					"display": false,
+					"default": 0.0,
+					"cn": "产品描述",
+					"en": "Product Descriptions"
+				},
+				{
+					"<color:green><b>source": "...",
+					"fieldType": "...",
+					"display": "...",
+					"default": "...",
+					"cn": "...",
+					"en": "..."
+				}
+
+			]
+		},
+		{
+			"dsCode": "china_stat",
+			"config": [{
+					"<color:green><b>source": "goodsDesc",
+					"fieldType": "str",
+					"display": true,
+					"cn": "产品描述",
+					"en": "Product Descriptions"
+				},
+				{
+					"<color:green><b>source": "weight",
+					"fieldType": "float",
+					"display": false,
+					"default": 0.0,
+					"cn": "千克净重",
+					"en": "Product Descriptions"
+				},
+				{
+					"<color:green><b>source": "...",
+					"fieldType": "...",
+					"display": "...",
+					"default": "...",
+					"cn": "...",
+					"en": "..."
+				}
+
+			]
+		},
+		{
+			"dsCode": "...",
+			"config": [],
+			"defaultDisplay": ["...", "..."]
+		}
+	],
+	"exports": [{
+			"dsCode": "china_stat",
+			"config": [{
+				"<color:green><b>source": "...",
+				"fieldType": "...",
+				"display": "...",
+				"default": "...",
+				"cn": "...",
+				"en": "..."
+			}]
+		},
+		{
+			"dsCode": "...",
+			"config": []
+		}
+	]
+}
+@endjson
