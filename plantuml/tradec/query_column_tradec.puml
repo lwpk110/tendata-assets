@@ -1,0 +1,13 @@
+	
+@startyaml
+imports:
+  - dsCode: china_stat
+    customFields: ["date","goodsDesc","customs","weight"]
+  - dsCode: ...
+    customFields: ["..."]
+exports:
+  - dsCode: china_stat
+    customFields: ["date","goodsDesc","customs","weight"]
+  - dsCode: ...
+    customFields: ["..."]
+@endyaml
