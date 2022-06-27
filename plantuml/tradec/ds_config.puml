@@ -38,7 +38,6 @@
 {
 	"imports": [{
 			"code": "china_stat",
-			"secondary": "stat",
 			"reports": [
 				"exporter",
 				"hs_code",
@@ -65,7 +64,6 @@
 		},
 		{
 			"code": "russia",
-			"secondary": "bol",
 			"reports": [
 				"exporter",
 				"hs_code",
@@ -92,7 +90,6 @@
 		},
 		{
 			"code": "...",
-			"secondary": "...",
 			"reports": ["..."],
 			"statFields": ["..."],
 			"lang": ["..."]
@@ -100,7 +97,6 @@
 	],
 	"exports": [{
 		"code": "...",
-		"secondary": "...",
 		"reports": ["..."],
 		"statFields": ["..."],
 		"lang": ["..."]
