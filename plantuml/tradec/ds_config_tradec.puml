@@ -5,18 +5,15 @@ import:
     config:
       - isNew: true
         isPrefered: true
-        isDownloadLimit: true
   - dsCode: russia
     config:
       - isNew: false
         isPrefered: false
-        isDownloadLimit: false
   - dsCode: ...
 export:
   - dsCode: china_stat
     config:
       - isNew: true
         isPrefered: true
-        isDownloadLimit: true
   - dsCode: ...
 @endyaml

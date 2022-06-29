@@ -22,7 +22,6 @@
 					"<color:green><b>source": "weight",
 					"fieldType": "float",
 					"display": false,
-					"default": 0.0,
 					"cn": "产品描述",
 					"en": "Product Descriptions"
 				},
@@ -30,7 +29,6 @@
 					"<color:green><b>source": "...",
 					"fieldType": "...",
 					"display": "...",
-					"default": "...",
 					"cn": "...",
 					"en": "..."
 				}
@@ -50,7 +48,6 @@
 					"<color:green><b>source": "weight",
 					"fieldType": "float",
 					"display": false,
-					"default": 0.0,
 					"cn": "千克净重",
 					"en": "Product Descriptions"
 				},
@@ -58,11 +55,9 @@
 					"<color:green><b>source": "...",
 					"fieldType": "...",
 					"display": "...",
-					"default": "...",
 					"cn": "...",
 					"en": "..."
 				}
-
 			]
 		},
 		{
@@ -77,7 +72,6 @@
 				"<color:green><b>source": "...",
 				"fieldType": "...",
 				"display": "...",
-				"default": "...",
 				"cn": "...",
 				"en": "..."
 			}]

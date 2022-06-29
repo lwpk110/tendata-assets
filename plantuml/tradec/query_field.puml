@@ -17,9 +17,6 @@
                     "<color:green><b>queryField": "product_desc",
                     "field": "goodsDesc",
                     "fieldType": "str",
-                    "additionalField": "goodsDesc.raw",
-                    "isFq": true,
-                    "isWildcard": false,
                     "cn": "产品描述",
                     "en": "Product Descriptions"
                 },
@@ -27,8 +24,6 @@
                     "<color:green><b>queryField": "weight",
                     "field": "weight",
                     "fieldType": "float",
-                    "isFq": true,
-                    "isWildcard": false,
                     "cn": "产品净重(千克)",
                     "en": "Net weight"
                 },
@@ -50,9 +45,6 @@
                     "<color:green><b>queryField": "product_desc",
                     "field": "goodsDesc",
                     "fieldType": "str",
-                    "additionalField": "goodsDesc.raw",
-                    "isFq": true,
-                    "isWildcard": false,
                     "cn": "产品描述",
                     "en": "Product Descriptions"
                 },
@@ -60,8 +52,6 @@
                     "<color:green><b>queryField": "weight",
                     "field": "weight",
                     "fieldType": "float",
-                    "isFq": true,
-                    "isWildcard": false,
                     "cn": "产品净重(千克)",
                     "en": "Net weight"
                 },
@@ -69,8 +59,6 @@
                     "<color:green><b>queryField": "...",
                     "field": "...",
                     "fieldType": "str",
-                    "isFq": "...",
-                    "isWildcard": "...",
                     "cn": "....",
                     "en": "..."
                 }
@@ -85,8 +73,6 @@
                     "<color:green><b>queryField": "...",
                     "field": "...",
                     "fieldType": "str",
-                    "isWildcard": "...",
-                    "seq": "...",
                     "cn": "....",
                     "en": "..."
                 }

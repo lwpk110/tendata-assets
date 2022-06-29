@@ -47,20 +47,23 @@
 				"merchant",
 				"..."
 			],
+			"exAndIm":[
+				"importer",
+				"exporter"
+				],
 			"statFields": [
-				"importer,importer.raw:1",
-				"exporter,exporter.raw:1",
-				"weight,weight:0",
-				"quantity,qty:0",
-				"sumOfMoney,sumOfUSD:0",
-				"teus,teu:0",
+				"weight",
+				"quantity",
+				"sumOfMoney",
+				"teus",
 				"..."
 			],
 			"lang": [
 				"en",
 				"cn",
 				"..."
-			]
+			],
+			"download": true
 		},
 		{
 			"code": "russia",
@@ -73,33 +76,43 @@
 				"merchant",
 				"..."
 			],
+			"exAndIm":[
+				"exporter"
+				],
 			"statFields": [
-				"importer,importer.raw:1",
-				"exporter,exporter.raw:1",
-				"weight,weight:0",
-				"quantity,qty:0",
-				"sumOfMoney,sumOfUSD:0",
-				"teus,teu:0",
+				"importer",
+				"exporter",
+				"weight",
+				"quantity",
+				"sumOfMoney",
+				"teus",
 				"..."
 			],
 			"lang": [
 				"en",
 				"ru",
 				"..."
-			]
+			],
+			"download": true
+
 		},
 		{
 			"code": "...",
 			"reports": ["..."],
+			"exAndIm":["..."],
 			"statFields": ["..."],
-			"lang": ["..."]
+			"lang": ["..."],
+			"download": false
+
 		}
 	],
 	"exports": [{
 		"code": "...",
 		"reports": ["..."],
+		"exAndIm":[],
 		"statFields": ["..."],
-		"lang": ["..."]
+		"lang": ["..."],
+		"download": true
 	}]
 }
 @endjson
