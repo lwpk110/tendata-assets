@@ -58,12 +58,10 @@
 				"teus",
 				"..."
 			],
-			"lang": [
-				"en",
-				"cn",
-				"..."
-			],
-			"download": true
+			"lang": "cn",
+			"download": true,
+			"cn":"中国统计数据",
+			"en":"china stat data"
 		},
 		{
 			"code": "russia",
@@ -88,12 +86,10 @@
 				"teus",
 				"..."
 			],
-			"lang": [
-				"en",
-				"ru",
-				"..."
-			],
-			"download": true
+			"lang": "ru",
+			"download": true,
+			"cn":"俄罗斯进口数据",
+			"en":"russia importer data"
 
 		},
 		{
@@ -102,7 +98,9 @@
 			"exAndIm":["..."],
 			"statFields": ["..."],
 			"lang": ["..."],
-			"download": false
+			"download": false,
+			"cn":"...",
+			"en":"..."
 
 		}
 	],
@@ -111,8 +109,10 @@
 		"reports": ["..."],
 		"exAndIm":[],
 		"statFields": ["..."],
-		"lang": ["..."],
-		"download": true
+		"lang": "...",
+		"download": true,
+		"cn":"...",
+		"en":"..."
 	}]
 }
 @endjson
