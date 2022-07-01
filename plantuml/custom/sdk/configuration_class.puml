@@ -1,0 +1,65 @@
+@startuml
+interface FileConfigResolver<T extends I18nField>{
+    + Map<String,ArrayList<DatasourceField>> resolve(File f)
+}
+interface CustomsConfigCombiner{
+    + CustomsSetting combine();
+}
+
+abstract class I18nField{
+    + code: String
+    + cn: String
+    + en: String
+}
+note left of I18nField::cn
+    中文国际化
+end note    
+note left of I18nField::en
+    英文国际化
+end note
+
+class CustomsCategorySetting{
+    + datasource: Datasource
+    + queryFields: ArrayList<QueryField>
+    + queryColumns: ArrayList<QueryColumn>
+    + queryDetails: ArrayList<QueryDetail>
+
+    + String getDatasourceCode()
+}
+class CustomsSetting{
+    + imports: ArrayList<CustomsCategorySetting>
+    + exports: ArrayList<CustomsCategorySetting>
+}
+class DatasourceField<T extends I18nField>{
+    + dsCode: String
+    + config: ArrayList<T>
+}
+class DefaultCustomsConfigCombiner<T extends I18nField>{
+    + fileConfigResolver: FileConfigResolver 
+
+    + Map<String,ArrayList<DatasourceField>> resolve(File f)
+    + CustomsSetting combine();
+}
+
+
+package config.json.file {
+    json datasource_config{
+    }
+    json query_fields{
+    }
+    json query_column{
+    }
+    json query_detail{
+    }
+}
+I18nField <|-- Datasource
+I18nField <|-- QueryField
+I18nField <|-- QueryColumn
+I18nField <|-- QueryDetail
+FileConfigResolver ..> config.json.file 
+DefaultCustomsConfigCombiner ..|> FileConfigResolver
+DefaultCustomsConfigCombiner ..|> CustomsConfigCombiner
+CustomsConfigCombiner ..> FileConfigResolver
+CustomsSetting "1" *--> "n"  CustomsCategorySetting
+
+@enduml

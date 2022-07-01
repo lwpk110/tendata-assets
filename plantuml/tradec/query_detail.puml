@@ -14,12 +14,12 @@
          "dsCode":"china_stat",
          "config":[
             {
-               "fieldType":"COMPANY_IMPORTER",
+               "fieldCategory":"COMPANY_IMPORTER",
                "config":[
                   {
                      "source":"jksmc",
                      "seq":1,
-                     "dataType":"str",
+                     "fieldType":"str",
                      "displayType":"x",
                      "cn":"进口商名称",
                      "en":"importer name"
@@ -27,7 +27,7 @@
                   {
                      "source":"jksdz",
                      "seq":2,
-                     "dataType":"str",
+                     "fieldType":"str",
                      "displayType":"x",
                      "cn":"进口商地址",
                      "en":"importer address"
@@ -35,7 +35,7 @@
                   {
                      "source":"jksdm",
                      "seq":3,
-                     "dataType":"str",
+                     "fieldType":"str",
                      "displayType":"x",
                      "cn":"...",
                      "en":"..."
@@ -43,7 +43,7 @@
                   {
                      "source":"lxfslx",
                      "seq":5,
-                     "dataType":"str",
+                     "fieldType":"str",
                      "displayType":"x",
                      "cn":"...",
                      "en":"..."
@@ -51,7 +51,7 @@
                   {
                      "source":"lxfs",
                      "seq":6,
-                     "dataType":"str",
+                     "fieldType":"str",
                      "displayType":"x",
                      "cn":"...",
                      "en":"..."
@@ -59,12 +59,12 @@
                ]
             },
             {
-               "fieldType":"COMPANY_EXPORTER",
+               "fieldCategory":"COMPANY_EXPORTER",
                "config":[
                   {
                      "source":"cksmc",
                      "seq":1,
-                     "dataType":"str",
+                     "fieldType":"str",
                      "displayType":"x",
                      "cn":"...",
                      "en":"..."
@@ -72,7 +72,7 @@
                   {
                      "source":"...",
                      "seq":2,
-                     "dataType":"...",
+                     "fieldType":"...",
                      "displayType":"...",
                      "cn":"...",
                      "en":"..."
@@ -80,12 +80,12 @@
                ]
             },
             {
-               "fieldType":"COMPANY_NOTIFIER",
+               "fieldCategory":"COMPANY_NOTIFIER",
                "config":[
                   {
                      "source":"tzrmc",
                      "seq":1,
-                     "dataType":"str",
+                     "fieldType":"str",
                      "displayType":"x",
                      "cn":"...",
                      "en":"..."
@@ -93,7 +93,7 @@
                   {
                      "source":"...",
                      "seq":2,
-                     "dataType":"...",
+                     "fieldType":"...",
                      "displayType":"...",
                      "cn":"...",
                      "en":"..."
@@ -101,56 +101,56 @@
                ]
             },
             {
-               "fieldType":"SHIPPING",
+               "fieldCategory":"SHIPPING",
                "config":[
                   {
                      "source":"...",
                      "seq":"...",
-                     "dataType":"...",
+                     "fieldType":"...",
                      "displayType":"..."
                   }
                ]
             },
             {
-               "fieldType":"CONTAINER",
+               "fieldCategory":"CONTAINER",
                "config":[
                   {
                      "source":"...",
                      "seq":"...",
-                     "dataType":"...",
+                     "fieldType":"...",
                      "displayType":"..."
                   }
                ]
             },
             {
-               "fieldType":"PRODUCT",
+               "fieldCategory":"PRODUCT",
                "config":[
                   {
                      "source":"...",
                      "seq":"...",
-                     "dataType":"...",
+                     "fieldType":"...",
                      "displayType":"..."
                   }
                ]
             },
             {
-               "fieldType":"DESCRIPTION",
+               "fieldCategory":"DESCRIPTION",
                "config":[
                   {
                      "source":"...",
                      "seq":"...",
-                     "dataType":"...",
+                     "fieldType":"...",
                      "displayType":"..."
                   }
                ]
             },
             {
-               "fieldType":"HAZARDOUS",
+               "fieldCategory":"HAZARDOUS",
                "config":[
                   {
                      "source":"...",
                      "seq":"...",
-                     "dataType":"...",
+                     "fieldType":"...",
                      "displayType":"..."
                   }
                ]

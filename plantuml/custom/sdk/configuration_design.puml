@@ -1,0 +1,50 @@
+@startuml
+state CMSGenerator {
+  [*] --> cms_db
+  cms_db --> ds_struct : 反序列化
+  cms_db --> query_field_struct : 反序列化
+  cms_db --> query_column_struct : 反序列化
+  cms_db --> query_detail_struct : 反序列化
+
+  state Customs_properties {
+    state config.properties
+    state query_fields.properties
+    state stat_fields.properties
+    state mapping.properties
+  }
+
+  state Customs_SDK_config {
+    state datasource_config.json
+    state query_fields.json
+    state query_column.json
+    state query_detail.json
+  }
+
+  ds_struct --> datasource_config.json: 序列化
+  query_field_struct --> query_fields.json: 序列化
+  query_field_struct --> query_fields.properties: 序列化
+  query_field_struct --> config.properties: 序列化
+  query_field_struct --> stat_fields.properties: 序列化
+  query_column_struct --> query_column.json: 序列化
+  query_detail_struct --> query_detail.json: 序列化
+  query_detail_struct --> mapping.properties: 序列化
+
+  ds_struct: 数据源结构
+  query_field_struct: 查询条件结构
+  query_column_struct: 查询列表结构
+  query_detail_struct: 详单字段结构体
+
+  Customs_SDK_config --> Custom_SDK_configuration : 手动
+  Customs_properties --> Customs: 手动
+}
+
+state Custom_SDK_configuration {
+  
+  json --> struct
+  struct --> bean
+
+}
+
+state Customs {
+}
+@enduml
