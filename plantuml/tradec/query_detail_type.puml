@@ -9,6 +9,11 @@
 **[#FFBBCC] 物流信息 -  <color:orange><b>SHIPPING</b>
 **[#lightblue] 集装箱信息 -  <color:orange><b>CONTAINER</b>
 **[#lightgreen] 产品信息 -  <color:orange><b>PRODUCT</b>
+***[#lightgreen] 量价情况（一般） -  <color:orange><b>PRODUCT_GENERAL_PRICE</b>
+***[#lightgreen] 量价情况（消费） -  <color:orange><b>PRODUCT_CONSUME_PRICE</b>
+***[#lightgreen] 量价情况（空运） -  <color:orange><b>PRODUCT_AIR</b>
+***[#lightgreen] 量价情况（海运） -  <color:orange><b>PRODUCT_SHIPING</b>1
+***[#lightgreen] 量价情况（货柜） -  <color:orange><b>PRODUCT_CONTAINER</b>
 **[#lightblue] 描述 -  <color:orange><b>DESCRIPTION</b>
 **[#red] 危险品信息 -  <color:orange><b>HAZARDOUS</b>
 @endmindmap

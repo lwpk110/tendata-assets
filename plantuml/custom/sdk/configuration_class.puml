@@ -41,6 +41,11 @@ class DefaultCustomsConfigCombiner<T extends I18nField>{
     + CustomsSetting combine();
 }
 
+class QueryDetailType{
+    + filedCategory: String
+    + config: List<QueryDetail>
+}
+
 
 package config.json.file {
     json datasource_config{

@@ -31,8 +31,6 @@
                     "<color:green><b>queryField": "...",
                     "field": "...",
                     "fieldType": "str",
-                    "isFq": "...",
-                    "isWildcard": "...",
                     "cn": "....",
                     "en": "..."
                 }

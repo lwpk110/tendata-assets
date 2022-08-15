@@ -1,0 +1,27 @@
+@startuml
+
+state 商情雷达{
+    bizr_portal --> bizr_service: url: user/companies/0?name=...
+}
+
+state 数据通{
+    bizr_service --> bizr_tradec: url: /trade/company/reports...
+
+    state 公司贸易数据报告接口 {
+        公司名称 --> SpecialCharSearchHandler: 特殊字符转换（忽略策略）
+        公司别名 --> SpecialCharSearchHandler: 特殊字符转换（忽略策略）
+
+        note right of SpecialCharSearchHandler
+        此处有两种实现:
+        1. 忽略包含有特殊字符的原字符串 - skipHandler
+        2. 将原字符串中特殊字符替换为 空字符 - replaceHandler
+
+        默认使用忽略策略。
+        特殊字符可有 `searcher.skip-chars` 属性外部配置。
+        如想切换到 “替换空字符” 策略，在接口请求中增加 `skip=false` 属性值。
+        end note
+    }
+
+    公司贸易数据报告接口 --> tendata_customs: use cusoms-client
+} 
+@enduml

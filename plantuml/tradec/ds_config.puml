@@ -97,7 +97,7 @@
 			"reports": ["..."],
 			"exAndIm":["..."],
 			"statFields": ["..."],
-			"lang": ["..."],
+			"lang": "...",
 			"download": false,
 			"cn":"...",
 			"en":"..."
